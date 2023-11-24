@@ -1,5 +1,3 @@
-import string
-
 class Solution:
     def checkIfPangram(self, sentence: str) -> bool:
         alphabet: list[str] = string.ascii_lowercase
