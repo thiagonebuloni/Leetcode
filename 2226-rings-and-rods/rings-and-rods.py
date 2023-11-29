@@ -9,7 +9,9 @@ class Solution:
         i = 0
 
         while i < length:
-            rods_list[int(rings[i + 1])].add(rings[i])
+            color: str = rings[i]
+            rod: int = int(rings[i + 1])
+            rods_list[rod].add(color)
 
             i += 2
 
